@@ -21,25 +21,40 @@ En cada modulo hay una busqueda particular
 
 
 ## Paso 2: Instalar las dependencias del archivo requeriments.txt
-pip3 install -r requeriments.txt
 
+``` sh
+pip3 install -r requeriments.txt
+```
 
 ## Paso 2: Buscar la carpeta
+
+``` sh
 cd pandacsv
+```
 
 ## Paso 3: Correr el programa que quieras usar en la terminal 
 
-
+- lista de continentes
+``` sh
 python3 list_continentes.py
+```
 
-
+- Poblacion de paises a traves de los años
+``` sh
 python3 population_country.py
+```
 
-
+- Top 10 Paises con mas poblacion
+``` sh
 python3 max_population.py
+```
 
-
+- Top 10 Paises con menos poblacion
+``` sh
 python3 min_population.py
+```
 
-
+- Top 10 Paises de un continente con poblacion mayor a la que elijas
+``` sh
 python3 popilation_año.py
+```
