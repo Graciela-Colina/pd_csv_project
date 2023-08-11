@@ -247,7 +247,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-#mi entorno 
-csv_panda/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,linux,python,windows
