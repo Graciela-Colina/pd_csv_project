@@ -11,7 +11,7 @@ def run():
     zona = input("Introduce un continente => ")
     years = input("Introduce un año => ")
     cantidad = input("Buscar una poblacion mayor a => ") 
-    population = df[(df['Continent'] == zona) & (df[f'{years} Population'] > int(cantidad))]
+    population = df[(df['Continent'] == zona) & (df[f'{years} Population'] >= int(cantidad))]
     data = population['Country/Territory'].head(10)
     population_years = population[f'{years} Population'].head(10)
  

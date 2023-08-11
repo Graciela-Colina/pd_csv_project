@@ -24,6 +24,7 @@ def population_country():
     labels = dict_population.keys()
     values = dict_population.values()
     plt.bar(labels, values)
+    plt.savefig(f'Poblacionde{search_country}1970_2022.png')
     plt.show()
 
 population_country()
