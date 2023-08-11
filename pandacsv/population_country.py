@@ -5,7 +5,6 @@ from matplotlib import pyplot as plt
 def population_country():
 
     df = pd.read_csv('data.csv')
-    pd.read_csv('data.csv')
     search_country = input('Escribe un Pais => ')
     data = df.loc[df['Country/Territory'] == search_country]
     list_population = data[['1970 Population', '1980 Population', '1990 Population', '2000 Population', '2010 Population', '2015 Population', '2020 Population', '2022 Population']]
