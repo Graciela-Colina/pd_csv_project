@@ -29,17 +29,17 @@ cd pandacsv
 
 ## Paso 3: Correr el programa que quieras usar en la terminal 
 
-- lista de continentes
+
 python3 list_continentes.py
 
-- Poblacion de paises a traves de los años
+
 python3 population_country.py
 
-- Top 10 Paises con mas poblacion
+
 python3 max_population.py
 
-- Top 10 Paises con menos poblacion
+
 python3 min_population.py
 
-- Top 10 Paises de un continente con poblacion mayor a la que elijas
+
 python3 popilation_año.py
